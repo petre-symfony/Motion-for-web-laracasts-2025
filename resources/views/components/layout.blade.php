@@ -11,6 +11,7 @@
   @endphp
 
   @vite(['resources/css/app.css', $cssPath, $jsPath])
+  <link rel="stylesheet" href="/animations.css">
 </head>
 
 <body>
