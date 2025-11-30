@@ -2,9 +2,10 @@
   padding: 2rem;
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion) {
 
 }
+
 .square {
   height: 100px;
   width: 100px;
