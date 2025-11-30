@@ -2,9 +2,7 @@
   padding: 2rem;
 }
 
-@media (prefers-reduced-motion) {
 
-}
 
 .square {
   height: 100px;
@@ -40,3 +38,4 @@
 .square:hover {
   animation: pulse 0.75s ease-in-out infinite alternate;
 }
+
