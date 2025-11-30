@@ -11,7 +11,7 @@
   @endphp
 
   @vite(['resources/css/app.css', $cssPath, $jsPath])
-  <link rel="stylesheet" href="/animations.css">
+  <link rel="stylesheet" href="/animations.css" media="(prefers-reduced-motion: no-preference)">
 </head>
 
 <body>
