@@ -1,5 +1,0 @@
-@media (prefers-reduced-motion: no-preference) {
-  .square:hover {
-    animation: party 0.75s ease-in-out infinite alternate;
-  }
-}
