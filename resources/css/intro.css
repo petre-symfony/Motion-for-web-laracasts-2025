@@ -35,12 +35,21 @@
   }
 }
 
+@keyframes scale-down {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.5);
+  }
+}
+
 .square:hover {
   animation: pulse 0.75s ease-in-out infinite alternate;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .square:hover {
-    animation: party 0.75s ease-in-out infinite alternate;
+    animation: scale-down 0.5s ease-in-out infinite alternate;
   }
 }
