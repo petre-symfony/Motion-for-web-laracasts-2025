@@ -7,4 +7,8 @@
   width: 100px;
   background-color: oklch(0.69 0.18 245.62);
   border-radius: 0.25rem;
+
+  &:hover {
+    transform: rotate(45deg);
+  }
 }
