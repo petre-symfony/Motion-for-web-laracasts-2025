@@ -8,6 +8,7 @@
   background-color: oklch(0.69 0.18 245.62);
   border-radius: 0.25rem;
   transition-duration: 300ms;
+  transition-property: transform;
 
   &:hover {
     transform: rotate(45deg);
