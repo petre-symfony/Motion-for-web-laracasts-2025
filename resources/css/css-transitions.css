@@ -10,5 +10,6 @@
 
   &:hover {
     transform: rotate(45deg);
+    transition-duration: 300ms;
   }
 }
