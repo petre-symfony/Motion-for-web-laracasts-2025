@@ -36,13 +36,14 @@
 }
 
 @keyframes scale-down {
-  /*from {
+  from {
     transform: scale(1);
-  } */
+  }
   to {
-    /*transform: scale(0.5);*/
+    transform: scale(0.5);
+    /*
     height: 80px;
-    width: 80px;
+    width: 80px;*/
   }
 }
 
