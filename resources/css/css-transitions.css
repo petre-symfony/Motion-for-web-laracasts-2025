@@ -33,6 +33,19 @@
   transition-duration: 1s;
 }
 
+.box--1 {
+  transition-timing-function: ease-in;
+}
+.box--2 {
+  transition-timing-function: ease-out;
+}
+.box--3 {
+  transition-timing-function: ease-in-out;
+}
+.box--4 {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
 .container:hover .box {
   transform: translateX(400px);
 }
