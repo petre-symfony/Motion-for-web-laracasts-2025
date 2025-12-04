@@ -9,7 +9,7 @@
   border-radius: 0.25rem;
   transition-duration: 300ms;
   transition-property: transform, background-color, border-radius;
-  transition-timing-function: ease-in, ease-out, ease;
+  transition-timing-function: cubic-bezier(0.87, 0, 0.08, 0.99), ease-out, ease;
 
   &:hover {
     transform: rotate(45deg);
