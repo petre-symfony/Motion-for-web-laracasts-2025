@@ -7,9 +7,10 @@
   width: 100px;
   background-color: oklch(0.69 0.18 245.62);
   border-radius: 0.25rem;
-  transition-duration: 300ms;
+  transition-duration: 1s;
   transition-property: transform, background-color, border-radius;
-  transition-timing-function: cubic-bezier(0.87, 0, 0.08, 0.99), ease-out, ease;
+  transition-timing-function: cubic-bezier(0.87, 0, 0.08, 0.99),
+                              steps(5, end), steps(3, end);
 
   &:hover {
     transform: rotate(45deg);
