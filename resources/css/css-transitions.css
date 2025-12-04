@@ -9,7 +9,7 @@
   border-radius: 0.25rem;
   transition-duration: 1s;
   transition-property: transform, background-color, border-radius;
-  transition-timing-function: cubic-bezier(0.87, 0, 0.08, 0.99),
+  transition-timing-function: steps(4, start),
                               steps(5, end), steps(3, end);
 
   &:hover {
