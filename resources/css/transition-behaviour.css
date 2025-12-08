@@ -24,7 +24,7 @@ button {
 
   opacity: 0;
   transform: scale(0.9);
-  transition-property: opacity, transform;
+  transition-property: opacity, transform, display;
   transition-duration: 700ms;
 }
 
