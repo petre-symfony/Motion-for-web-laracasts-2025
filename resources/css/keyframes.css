@@ -10,6 +10,7 @@
 
   animation: move;
   animation-duration: 2s;
+  animation-iteration-count: 3;
 }
 
 @keyframes move {
