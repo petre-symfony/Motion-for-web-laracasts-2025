@@ -8,11 +8,7 @@
   background-color: oklch(0.69 0.18 245.62);
   border-radius: 0.25rem;
 
-  animation: move;
-  animation-duration: 2s;
-  animation-iteration-count: 4;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+  animation: move 2s ease-in-out infinite alternate
 }
 
 @keyframes move {
