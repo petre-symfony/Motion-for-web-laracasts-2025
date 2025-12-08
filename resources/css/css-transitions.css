@@ -10,7 +10,9 @@
   /*transition-duration: 1s;
   transition-property: transform, background-color, border-radius;
   transition-delay: 500ms; */
-  transition: transform 800ms ease-in-out 500ms;
+  transition: transform 800ms ease-in-out,
+    background-color 1s ease-in-out 200ms,
+    border-radius 800ms steps(5, start) 600ms;
   &:hover {
     transform: rotate(45deg);
     background-color: tomato;
