@@ -9,9 +9,7 @@
   border-radius: 0.25rem;
   transition-duration: 1s;
   transition-property: transform, background-color, border-radius;
-  transition-timing-function: steps(4, start),
-                              steps(5, end), steps(3, end);
-
+  transition-delay: 500ms;
   &:hover {
     transform: rotate(45deg);
     background-color: tomato;
