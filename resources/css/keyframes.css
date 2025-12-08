@@ -16,15 +16,15 @@
     transform: translateX(0);
   }
   25% {
-    transform: translateX(300px);
+    transform: translateX(300px) scale(0.5);
   }
   50% {
-    transform: translateX(300px) translateY(200px);
+    transform: translateX(300px) translateY(200px) scale(0.5);
   }
   75% {
-    transform: translateX(0) translateY(200px);
+    transform: translateX(0) translateY(200px) scale(1.5);
   }
   100% {
-    transform: translateX(0) translateY(0)
+    transform: translateX(0) translateY(0) rotate(900deg);
   }
 }
