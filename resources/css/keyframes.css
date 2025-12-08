@@ -10,8 +10,9 @@
 
   animation: move;
   animation-duration: 2s;
-  animation-iteration-count: 3;
-  animation-direction: reverse;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
 @keyframes move {
