@@ -9,6 +9,7 @@
   border-radius: 0.25rem;
 
   animation: move;
+  animation-duration: 2s;
 }
 
 @keyframes move {
