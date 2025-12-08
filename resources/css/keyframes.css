@@ -18,7 +18,7 @@
   25% {
     transform: translateX(300px) scale(0.5);
   }
-  50% {
+  40%, 60% {
     transform: translateX(300px) translateY(200px) scale(0.5);
   }
   75% {
