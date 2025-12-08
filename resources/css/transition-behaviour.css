@@ -1,0 +1,33 @@
+/* Popover Trigger */
+button {
+  --button-color: oklch(0.69 0.18 245.62);
+
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.95rem;
+
+  &:hover {
+    background: color-mix(in oklch, var(--button-color) 80%, black 20%);
+  }
+}
+
+/* Popover */
+[popover] {
+  margin: auto;
+  padding: 1rem 2rem;
+  width: 280px;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+[popover]:popover-open {
+
+}
+
+[popover]::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
