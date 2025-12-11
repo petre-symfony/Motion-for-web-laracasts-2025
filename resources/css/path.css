@@ -5,4 +5,13 @@
   border: 0.25rem;
   margin-left: 1rem;
   margin-top: 1rem;
+  offset-path: path("M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80");
+
+  animation: follow-path 3s ease-in-out infinite alternate;
+}
+
+@keyframes follow-path {
+  to {
+    offset-distance: 100%;
+  }
 }
