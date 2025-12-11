@@ -16,6 +16,7 @@
 
   /*animation: move 2s ease-in-out infinite;*/
   animation: tadaaa 1s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 @keyframes move {
