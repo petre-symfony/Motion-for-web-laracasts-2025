@@ -18,6 +18,16 @@
   animation: tadaaa 1s ease-in-out forwards;
 }
 
+.square--2 {
+  animation-delay: 100ms;
+}
+.square--3 {
+  animation-delay: 200ms;
+}
+.square--4 {
+  animation-delay: 300ms;
+}
+
 @keyframes move {
   0% {
     transform: translateX(0);
