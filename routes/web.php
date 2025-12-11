@@ -7,3 +7,4 @@ Route::view('/', 'intro');
 Route::view('/css-transitions', 'css-transitions');
 Route::view('/transition-behaviour', 'transition-behaviour');
 Route::view('/keyframes', 'keyframes');
+Route::view('/path', 'path');
