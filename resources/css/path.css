@@ -1,3 +1,15 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.star {
+  position: absolute;
+  inset: 0;
+  background: hotpink;
+}
+
 .rectangle {
   width: 40px;
   height: 20px;

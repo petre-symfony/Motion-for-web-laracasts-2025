@@ -1,4 +1,9 @@
 <x-layout title="Motion Path" stylesheet="path.css">
+  <div class="container">
+    <div class="star"></div>
+    <div class="marker"></div>
+  </div>
+
   <svg style="position: absolute" height="327" viewBox="0 0 645 327" fill="none"
        xmlns="http://www.w3.org/2000/svg">
     <path id="motion-path"
