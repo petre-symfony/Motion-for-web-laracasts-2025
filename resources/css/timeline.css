@@ -9,8 +9,8 @@
   border-radius: 0.5rem;
   animation: reveal;
   animation-timeline: view();
-  animation-range-start: 40%;
-  animation-range-end: 60%;
+  animation-range-start: entry;
+  animation-range-end: entry 50%;
   animation-fill-mode: both;
 }
 
