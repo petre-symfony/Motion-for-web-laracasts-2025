@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.shape {
+  height: 240px;
+  border-radius: 0.5rem
+}
+
+.shape--one {
+  width: 300px;
+  background: oklch(66.7% 0.295 322.19);
+}
+
+.shape--two {
+  width: 120px;
+  background: oklch(48.5% 0.233 277.117);
+}
+
+.shape--three {
+  width: 180px;
+  background: oklch(78.9% 0.154 211.53);
+}
