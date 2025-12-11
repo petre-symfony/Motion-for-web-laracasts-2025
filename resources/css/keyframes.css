@@ -15,7 +15,7 @@
   border-radius: 0.25rem;
 
   /*animation: move 2s ease-in-out infinite;*/
-  animation: tadaaa 1s ease-in-out forwards;
+  animation: tadaaa 1s ease-in-out forwards reverse;
 }
 
 .square--2 {
