@@ -6,7 +6,8 @@
 
 .shape {
   height: 240px;
-  border-radius: 0.5rem
+  border-radius: 0.5rem;
+  animation: reveal 2s;
 }
 
 .shape--one {
@@ -22,4 +23,14 @@
 .shape--three {
   width: 180px;
   background: oklch(78.9% 0.154 211.53);
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
 }
