@@ -5,10 +5,16 @@
   border: 0.25rem;
   offset-path: url(#motion-path);
 
-  animation: follow-path 3s ease-in-out infinite alternate;
+  animation: follow-path 5s ease-in-out infinite alternate;
 }
 
 @keyframes follow-path {
+  40% {
+    offset-distance: 55%;
+  }
+  55% {
+    offset-distance: 45%;
+  }
   to {
     offset-distance: 100%;
   }
