@@ -1,3 +1,18 @@
+:root {
+  --star: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+  );
+}
+
 .container {
   position: relative;
   width: 350px;
@@ -9,19 +24,7 @@
   position: absolute;
   inset: 0;
   background: hotpink;
-  clip-path: polygon(
-      50% 0%,
-      61% 35%,
-      98% 35%,
-      68% 57%,
-      79% 91%,
-      50% 70%,
-      21% 91%,
-      32% 57%,
-      2% 35%,
-      39% 35%
-    )
-  ;
+  clip-path: var(--star);
 }
 
 .marker {
@@ -32,7 +35,7 @@
   height: 6px;
   background: black;
 
-  offset-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  offset-path: var(--star);
 }
 
 .rectangle {
