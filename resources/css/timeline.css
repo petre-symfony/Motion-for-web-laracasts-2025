@@ -11,6 +11,7 @@
   animation-timeline: view();
   animation-range-start: 40%;
   animation-range-end: 60%;
+  animation-fill-mode: both;
 }
 
 .shape--one {
