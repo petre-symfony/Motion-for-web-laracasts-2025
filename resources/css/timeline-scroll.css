@@ -33,4 +33,12 @@ article {
   width: 100vw;
   height: 8px;
   background: hotpink;
+
+  animation: progress 2s linear;
+}
+
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
 }
