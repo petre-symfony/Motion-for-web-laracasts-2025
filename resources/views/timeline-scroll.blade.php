@@ -1,4 +1,6 @@
 <x-layout title="Timeline Scroll" stylesheet="timeline-scroll.css">
+  <div class="progress"></div>
+  
   <article>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis ipsum eget
       est venenatis pulvinar. Nam eleifend nisi eu maximus maximus. Vestibulum et lacus

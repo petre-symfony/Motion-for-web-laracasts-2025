@@ -25,3 +25,12 @@ article {
   height: 100px;
   background: hotpink;
 }
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 8px;
+  background: hotpink;
+}
