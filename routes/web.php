@@ -9,3 +9,4 @@ Route::view('/transition-behaviour', 'transition-behaviour');
 Route::view('/keyframes', 'keyframes');
 Route::view('/path', 'path');
 Route::view('/timeline', 'timeline');
+Route::view('/timeline-scroll', 'timeline-scroll');
