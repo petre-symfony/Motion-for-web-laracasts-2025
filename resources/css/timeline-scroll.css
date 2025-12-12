@@ -35,7 +35,8 @@ article {
   background: hotpink;
   transform-origin: left;
 
-  animation: progress 2s linear;
+  animation: progress linear;
+  animation-timeline: scroll();
 }
 
 @keyframes progress {
