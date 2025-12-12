@@ -33,6 +33,7 @@ article {
   width: 100vw;
   height: 8px;
   background: hotpink;
+  transform-origin: left;
 
   animation: progress 2s linear;
 }
