@@ -24,6 +24,8 @@ article {
   width: 100px;
   height: 100px;
   background: hotpink;
+
+  animation: spin 2s linear;
 }
 
 .progress {
@@ -42,5 +44,11 @@ article {
 @keyframes progress {
   from {
     transform: scaleX(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(0.25turn);
   }
 }
