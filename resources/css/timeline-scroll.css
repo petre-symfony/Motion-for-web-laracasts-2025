@@ -25,7 +25,8 @@ article {
   height: 100px;
   background: hotpink;
 
-  animation: spin 2s linear;
+  animation: spin linear;
+  animation-timeline: scroll();
 }
 
 .progress {
